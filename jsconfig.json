@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@academic/*": ["./src/sub/academic/*"],
+      "@components/*": ["./src/components/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@styles/*": ["./src/styles/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "internals"]
+}
