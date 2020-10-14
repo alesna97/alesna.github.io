@@ -1,3 +1,4 @@
+/* eslint-disable no-return-assign */
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -9,6 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import useStyles from './container-jss';
 import me1 from '../../assets/images/me1.png';
 import me2 from '../../assets/images/me2.png';
+import cv from '../../assets/cv/anjas-lesmana.pdf';
 
 const Container = (props) => {
   const { children } = props;
@@ -56,6 +58,7 @@ const Container = (props) => {
                   variant="contained"
                   color="primary"
                   className={classes.buttonCv}
+                  onClick={() => window.location.href = cv}
                 >
                   Download CV
                 </Button>
