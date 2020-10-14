@@ -21,6 +21,11 @@ const themes = createMuiTheme({
         borderRadius: 20,
       },
     },
+    MuiDivider: {
+      root: {
+        backgroundColor: '#7289DA',
+      },
+    },
   },
 });
 

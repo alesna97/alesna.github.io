@@ -3,7 +3,6 @@
     "baseUrl": ".",
     "paths": {
       "@src/*": ["./src/*"],
-      "@academic/*": ["./src/sub/academic/*"],
       "@components/*": ["./src/components/*"],
       "@containers/*": ["./src/containers/*"],
       "@helpers/*": ["./src/helpers/*"],

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-quotes */
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {
   AboutMe,
   Education,
@@ -14,7 +14,7 @@ import Layout from './containers/Layout';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Switch>
         <Layout>
           <Route exact path='/' component={Home} />
@@ -25,7 +25,7 @@ function App() {
           <Route path='/portofolio' component={Portofolio} />
         </Layout>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
