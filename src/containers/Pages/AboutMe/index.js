@@ -1,5 +1,8 @@
 import React from 'react';
-import { Divider, Slide, Typography } from '@material-ui/core';
+import {
+  Button,
+  Divider, Slide, Typography,
+} from '@material-ui/core';
 import aboutMe from './aboutMe';
 import Content from '../../../components/Content';
 import useStyles from './aboutMe-jss';

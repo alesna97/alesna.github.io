@@ -36,12 +36,11 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     width: '100px',
     height: '100px',
-
     marginBottom: theme.spacing(2),
     [theme.breakpoints.down('sm')]: {
       width: '120px',
       height: '120px',
-      marginTop: 16,
+      marginTop: 60,
     },
   },
   name: {
