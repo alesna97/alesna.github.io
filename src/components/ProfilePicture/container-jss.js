@@ -6,15 +6,16 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#444444',
     opacity: 0.8,
     display: 'flex',
-    marginTop: '16px',
     alignItems: 'center',
-    width: '70%',
-    height: '80%',
+    width: 900,
+    height: 500,
     [theme.breakpoints.down('sm')]: {
       display: 'flex',
       flexDirection: 'column',
       width: '100%',
-      height: '100%',
+      borderRadius: 0,
+      height: 900,
+      overflow: 'auto',
     },
   },
   profile: {
@@ -33,12 +34,14 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
   },
   avatar: {
-    width: '200px',
-    height: '200px',
+    width: '100px',
+    height: '100px',
+
     marginBottom: theme.spacing(2),
     [theme.breakpoints.down('sm')]: {
       width: '120px',
       height: '120px',
+      marginTop: 16,
     },
   },
   name: {
@@ -48,14 +51,17 @@ const useStyles = makeStyles((theme) => ({
   jobTitle: {
     color: theme.palette.primary.main,
   },
-  socialMedia: {
+  socialMediaWrapper: {
     display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  socialIconButton: {
+    flex: 1,
   },
   buttonCv: {
-    marginTop: theme.spacing(4),
-    [theme.breakpoints.down('sm')]: {
-      marginBottom: theme.spacing(1),
-    },
+    marginTop: 8,
+    marginBottom: 8,
   },
 }));
 

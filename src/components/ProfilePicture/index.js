@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-return-assign */
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  Avatar, Button, Grid, Grow, IconButton, Paper, Typography,
+  Avatar, Button, Grow, IconButton, Paper, Typography,
 } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
@@ -37,16 +38,16 @@ const Container = (props) => {
             >
               Web Developer
             </Typography>
-            <div className={classes.socialMedia}>
-              <IconButton>
+            <div className={classes.socialMediaWrapper}>
+              <IconButton className={classes.socialIconButton}>
                 <GitHubIcon color="secondary" />
               </IconButton>
 
-              <IconButton>
+              <IconButton className={classes.socialIconButton}>
                 <EmailIcon color="secondary" />
               </IconButton>
 
-              <IconButton>
+              <IconButton className={classes.socialIconButton}>
                 <LinkedInIcon color="secondary" />
               </IconButton>
             </div>

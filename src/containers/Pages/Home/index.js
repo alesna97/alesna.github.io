@@ -1,41 +1,34 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import {
-  Button, Grow, Paper, Slide, Typography,
+  Grow, Slide, Typography,
 } from '@material-ui/core';
 import Content from '../../../components/Content';
 import useStyles from './home-jss';
 
-const Home = (props) => {
-  const { test } = props;
+const Home = () => {
   const classes = useStyles();
   return (
-    <>
-      <Content>
-        <Grow in>
-          <div className={classes.root}>
+    <Content>
+      <Grow in>
+        <div className={classes.root}>
 
-            <Slide in direction="left">
-              <Typography
-                variant="h3"
-                color="primary"
-              >
-                Anjas Lesmana
-              </Typography>
-            </Slide>
+          <Slide in direction="left">
+            <Typography
+              color="primary"
+              style={{ fontSize: 24 }}
+            >
+              Hi, there!
+            </Typography>
+          </Slide>
 
-            <Slide in direction="right">
-              <Typography
-                variant="h6"
-                color="secondary"
-              >
-                Web Developer
-              </Typography>
-            </Slide>
-          </div>
-        </Grow>
-      </Content>
-    </>
+          <Slide in direction="right">
+            <Typography
+              color="secondary"
+            />
+          </Slide>
+        </div>
+      </Grow>
+    </Content>
   );
 };
 

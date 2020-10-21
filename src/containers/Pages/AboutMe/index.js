@@ -11,7 +11,7 @@ const AboutMe = () => {
       <Content>
         <div className={classes.root}>
           <Slide in direction="left">
-            <Typography variant="h3" color="primary" gutterBottom>
+            <Typography color="primary" style={{ fontSize: 24 }} gutterBottom>
               About Me
               <Divider
                 variant="inset"
@@ -21,7 +21,10 @@ const AboutMe = () => {
             </Typography>
           </Slide>
           <Slide in direction="right">
-            <Typography color="secondary" align="center ">
+            <Typography
+              color="secondary"
+              align="jutify"
+            >
               {aboutMe}
             </Typography>
           </Slide>
