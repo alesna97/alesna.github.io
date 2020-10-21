@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Button,
   Divider, Slide, Typography,
 } from '@material-ui/core';
 import aboutMe from './aboutMe';

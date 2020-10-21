@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#222222',
     width: '100%',
     height: '100%',
-    overflow: 'auto',
     [theme.breakpoints.down('sm')]: {
       marginLeft: 18,
       marginRight: 18,
