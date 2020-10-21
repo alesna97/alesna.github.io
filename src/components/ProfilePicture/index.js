@@ -39,15 +39,24 @@ const Container = (props) => {
               Web Developer
             </Typography>
             <div className={classes.socialMediaWrapper}>
-              <IconButton className={classes.socialIconButton}>
+              <IconButton
+                className={classes.socialIconButton}
+                onClick={() => window.open('https://github.com/alesna97', '_blank')}
+              >
                 <GitHubIcon color="secondary" />
               </IconButton>
 
-              <IconButton className={classes.socialIconButton}>
+              <IconButton
+                className={classes.socialIconButton}
+                onClick={() => document.location.href = 'mailto:alesna97@gmail.com'}
+              >
                 <EmailIcon color="secondary" />
               </IconButton>
 
-              <IconButton className={classes.socialIconButton}>
+              <IconButton
+                className={classes.socialIconButton}
+                onClick={() => window.open('https://linkedin.com/in/alesna97', '_blank')}
+              >
                 <LinkedInIcon color="secondary" />
               </IconButton>
             </div>
