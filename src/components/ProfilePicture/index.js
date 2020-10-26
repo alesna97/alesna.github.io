@@ -36,7 +36,7 @@ const Container = (props) => {
               variant="body1"
               color="secondary"
             >
-              Web Developer
+              Software Engineer
             </Typography>
             <div className={classes.socialMediaWrapper}>
               <IconButton

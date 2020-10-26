@@ -61,6 +61,7 @@ const useStyles = makeStyles((theme) => ({
   buttonCv: {
     marginTop: 8,
     marginBottom: 8,
+    zIndex: 1,
   },
 }));
 

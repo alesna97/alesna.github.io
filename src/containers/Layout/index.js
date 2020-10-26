@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     zIndex: 1,
     position: 'fixed',
+    overflow: 'auto',
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column',
       justifyContent: 'center',
